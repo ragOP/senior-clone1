@@ -28,6 +28,7 @@ import Late from './pages/Late';
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import Toast from './pages/Toast';
+import NewOne from './pages/NewOne';
 function App() {
  console.log('s');
   return (
@@ -53,6 +54,7 @@ function App() {
              <Route path = "/km-engmed1" element = {<VeryNew />} /> 
              <Route path = "/km-engmedgroc1" element = {<Urgent/>} />
           <Route path = "/engmedgroc1" element = {<New/>}/>
+          <Route path = "/engmed900" element = {<NewOne/>}/>
           <Route path = "/spanmed1" element = {<Third_SP />} />
           <Route path = "/hbosolar" element = {<Forth_EN />} />
           <Route path = "/spanfe1" element = {<Forth_SP />} />
